@@ -28,6 +28,8 @@ public class LocatorTest {
 //        list.get(0).sendKeys("test");
 //        System.out.println(list.size());
 //        webDriver.findElement(By.className(".btn-mktg.btn-primary-mktg.width-full.width-sm-auto")).click();
+//        webDriver.findElement(By.xpath("//button[contains(@class, \"btn-mktg\")]")).click();
+        webDriver.findElement(By.cssSelector("form .btn-mktg")).click();
     }
 
 }
